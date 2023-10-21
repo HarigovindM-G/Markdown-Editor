@@ -48,9 +48,11 @@ def main(page: ft.Page):
         
         if(MarkDownOutput.visible):
             MarkDownOutput.visible=False
+            MarkDownInput.visible=True
             page.update()
         else:
             MarkDownOutput.visible=True 
+            MarkDownInput.visible=False
             page.update()
         # page.update_layout()  # Update the layout to reflect the changes
 
