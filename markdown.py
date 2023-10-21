@@ -13,13 +13,8 @@ def main(page: ft.Page):
 
     is_editing=False 
    
-    def edit_toggler():
-        global is_editing  # Use nonlocal to modify the outer scope variable
+    
 
-        # Hide or show MarkDownInput and MarkDownOutput based on is_editing
-        MarkDownInput.visible = is_editing
-        MarkDownOutput.visible = not is_editing
-        page.update_layout()  # Update the layout to reflect the changes
     
     def update_markdown(e):
         MarkDownOutput.value = MarkDownInput.value
@@ -46,6 +41,20 @@ def main(page: ft.Page):
             on_tap_link=lambda e: page.launch_url(e.data),
             visible=False)
     
+    def edit_toggler(e):
+        global is_editing  # Use nonlocal to modify the outer scope variable
+
+        # Hide or show MarkDownInput and MarkDownOutput based on is_editing
+        
+        if(MarkDownOutput.visible):
+            MarkDownOutput.visible=False
+            page.update()
+        else:
+            MarkDownOutput.visible=True 
+            page.update()
+        # page.update_layout()  # Update the layout to reflect the changes
+
+
     toggle_button = ft.TextButton(text="Toggle Edit Mode", on_click=edit_toggler)
     page.add(toggle_button)
 
@@ -54,4 +63,4 @@ def main(page: ft.Page):
     page.add(MarkDownOutput)
 
 
-ft.app(target=main, assets_dir="assets")
+ft.app(target=main, assets_dir="assets", port=5000,view=ft.AppView.WEB_BROWSER )
