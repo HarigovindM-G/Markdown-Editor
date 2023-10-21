@@ -49,15 +49,17 @@ def main(page: ft.Page):
         if(MarkDownOutput.visible):
             MarkDownOutput.visible=False
             MarkDownInput.visible=True
+            toggle_button.text = "Preview"
             page.update()
         else:
             MarkDownOutput.visible=True 
             MarkDownInput.visible=False
+            toggle_button.text = "Edit"
             page.update()
         # page.update_layout()  # Update the layout to reflect the changes
 
 
-    toggle_button = ft.TextButton(text="Toggle Edit Mode", on_click=edit_toggler)
+    toggle_button = ft.TextButton(text="Preview", on_click=edit_toggler)
     page.add(toggle_button)
 
 
