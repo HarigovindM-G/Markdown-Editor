@@ -3,6 +3,23 @@ import flet as ft
 
     
 def main(page: ft.Page):
+    
+    help='''
+1. Editing Mode: Start typing your Markdown content in this area.
+
+2. Toggle Mode: Click "Edit" to switch between editing and preview modes.
+
+3. Markdown Syntax: Use Markdown formatting like **bold**, *italic*, [links](http://example.com).
+
+4. Code Blocks: Create code blocks with triple backticks (```).
+
+5. Lists: Make ordered (1., 2., 3.) and unordered (*, -) lists.
+
+Enjoy writing and formatting your content!
+
+'''
+
+
     page.scroll = "auto"
 
     page.fonts = {
@@ -22,6 +39,22 @@ def main(page: ft.Page):
 
     
     
+    def close_dlg(e):
+        dlg_modal.open = False
+        page.update()
+
+    def open_dlg(e):
+        page.dialog = dlg
+        dlg.open = True
+        page.update()
+
+    dlg = ft.AlertDialog(
+        title=ft.Text('Markdown Editor Help'), content=ft.Text(help)
+        
+    )
+    
+    help_button = ft.TextButton(text="Help", on_click=open_dlg)
+
     # To create a multiline input field
     MarkDownInput = ft.TextField(label="MarkDown", 
                                  multiline=True, 
@@ -60,11 +93,22 @@ def main(page: ft.Page):
 
 
     toggle_button = ft.TextButton(text="Preview", on_click=edit_toggler)
-    page.add(toggle_button)
+    
 
+    page.add(
 
+        ft.Row(
+            [
+                ft.Container(content=toggle_button),
+                ft.Container(content=help_button)
+            ],
+            alignment=ft.MainAxisAlignment.END,
+        ),
+        
+    )
+  
     page.add(MarkDownInput)
     page.add(MarkDownOutput)
 
 
-ft.app(target=main, assets_dir="assets", port=5000,view=ft.AppView.WEB_BROWSER )
+ft.app(target=main, assets_dir="assets")
