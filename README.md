@@ -1,9 +1,9 @@
 ![Novel Frame](https://github.com/TH-Activities/saturday-hack-night-template/assets/90635335/4c26e8ac-2dd1-4d75-8e1a-9f7585e3b381)
 
 
-## Team Name : Beta_Bionics
+# Team Name : Beta_Bionics
 
-## Team members
+# Team members
 1. [Harigovind M G](https://github.com/HarigovindM-G)
 2. [Adithya Ajay](https://github.com/adithyanajay)
 3. [Treesa George](https://github.com/tresanotfound)
