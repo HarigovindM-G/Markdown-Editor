@@ -13,14 +13,10 @@ In this modern tech era, markdown editor is a familiar and highly beneficial dig
 
 # Updations from our team
 ## To the existing mardown version, our team has brought certain modifications or updations like:  
-1. Dark mode
-2. Auto save 
-3. Image upload 
-4. Syntax highlighting
-5. Line numbering
-6. Word count
-7. Character count
-
+1. Edit mode
+2. Preview mode 
+3. Syntax highlighting
+4. Help
 
 ## Link to product walkthrough
 [link to video](https://youtu.be/jdsCD3Xdn2k?feature=shared)
