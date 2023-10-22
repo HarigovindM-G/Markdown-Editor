@@ -26,11 +26,11 @@ In this modern tech era, markdown editor is a familiar and highly beneficial dig
 2. Click on Preview mode to view the output
 3. Click on help button to view the markdown guide
 
-4. ![markdownpic2](https://github.com/HarigovindM-G/Markdown-Editor/assets/65997321/f169f22a-5c61-4166-a411-b5cd7e055930)
+![markdownpic2](https://github.com/HarigovindM-G/Markdown-Editor/assets/65997321/f169f22a-5c61-4166-a411-b5cd7e055930)
 
 
 ## Libraries used
-Flet 
+[Flet](https://flet.dev/docs/) 
 
 ## How to configure
 1. Install python
