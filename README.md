@@ -13,20 +13,14 @@ In this modern tech era, markdown editor is a familiar and highly beneficial dig
 
 # Updations from our team
 ## To the existing mardown version, our team has brought certain modifications or updations like:  
-(i) Dark mode
-(ii) Auto save 
-(iii) Image upload 
-(iv) Syntax highlighting
-(v) line numbering
-(vi) Word count
-(vii) Character count
+1. Dark mode
+2. Auto save 
+3. Image upload 
+4. Syntax highlighting
+5. Line numbering
+6. Word count
+7. Character count
 
-## Team Name : Beta_Bionics
-
-## Team members
-1. [Harigovind M G](https://github.com/HarigovindM-G)
-2. [Adithya Ajay](https://github.com/adithyanajay)
-3. [Treesa George](https://github.com/tresanotfound)
 
 ## Link to product walkthrough
 [link to video](Link Here)
