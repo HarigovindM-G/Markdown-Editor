@@ -28,8 +28,7 @@ In this modern tech era, markdown editor is a familiar and highly beneficial dig
 ## How it Works ?
 1. Explaining the working of project
 
-2.Embedded video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jdsCD3Xdn2k?si=QInJdKj1Kes1I0ce" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+2. Embedded video
 
 ## Libraries used
 Library Name - Version
