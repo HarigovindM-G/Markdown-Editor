@@ -4,7 +4,8 @@
 # MARKDOWN EDITOR
 In this modern tech era, markdown editor is a familiar and highly beneficial digital tool. This text editor or software application is designed for creating, editing, and formatting text using the Markdown markup language. Markdown is a lightweight and easy-to-learn markup language that allows you to write plain text documents with a simple set of syntax rules. These documents can then be easily converted into formatted documents, such as HTML web pages or PDFs, using various Markdown processors or converters.  
 
-## Updations from our side : To the existing mardown version, our team has brought certain modifications or updations like 
+# Updations from our side : To the existing mardown version, our team has brought certain modifications or updations like 
+  ## To the existing mardown version, our team has brought certain modifications or updations like  
    (i) Dark mode
    (ii) Auto save 
    (iii) Image upload 
