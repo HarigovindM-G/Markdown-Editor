@@ -22,15 +22,20 @@ In this modern tech era, markdown editor is a familiar and highly beneficial dig
 [link to video](https://youtu.be/jdsCD3Xdn2k?feature=shared)
 
 ## How it Works ?
-1. Explaining the working of project
+1. Click on Edit mode to write markdown
+2. Click on Preview mode to view the output
+3. Click on help button to view the markdown guide
 
-2. Embedded video
+4. ![markdownpic2](https://github.com/HarigovindM-G/Markdown-Editor/assets/65997321/f169f22a-5c61-4166-a411-b5cd7e055930)
+
 
 ## Libraries used
-Library Name - Version
+Flet 
 
 ## How to configure
-Instructions for setting up project
+1. Install python
+2. pip install flet
 
 ## How to Run
-Instructions for running
+1. clone the repo
+2. python markdown.py
