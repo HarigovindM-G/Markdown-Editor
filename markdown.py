@@ -112,3 +112,8 @@ Enjoy writing and formatting your content!
 
 
 ft.app(target=main, assets_dir="assets")
+
+
+
+
+
